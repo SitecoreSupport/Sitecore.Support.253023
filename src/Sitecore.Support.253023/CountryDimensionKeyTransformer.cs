@@ -8,7 +8,7 @@ namespace Sitecore.Support.ExperienceAnalytics.Api.Response.DimensionKeyTransfor
         // Methods
         public string Transform(string key, Language language)
         {
-            return new CountryDimensionKeyTransformer().Transform(key.ToUpper(), language);
+            return new Sitecore.ExperienceAnalytics.Api.Response.DimensionKeyTransformers.CountryDimensionKeyTransformer().Transform(key.ToUpper(), language);
         }
 
         // Properties
