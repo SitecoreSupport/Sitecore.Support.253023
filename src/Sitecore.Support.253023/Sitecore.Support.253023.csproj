@@ -67,7 +67,7 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CountryDimensionKeyTransformer.cs" />
+    <Compile Include="ExperienceAnalytics\Api\Response\DimensionKeyTransformers\CountryDimensionKeyTransformer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
